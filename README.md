@@ -1,14 +1,59 @@
-# KenzieHub - Projeto em Reactjs proposto pela Kenzie Academy
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executando-o-projeto">Executando o projeto</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-Nessa plataforma consumimos uma API onde podemos cadastrar nossas habilidades/tecnologias, o nível e ir atualizando esse nível conforme vamos melhorando com o tempo. Ah, sem contar que podemos também cadastrar novos usuários, fazer login em usuários já existentes e ver as tecnologias já cadastradas, editá-las, etc :D 
+<br>
 
-A validação das funções de adicionar nova tecnologia, editar e deletar está sendo por meio de token, que é gerado na hora do cadastro do usuário e, após efetuar o login, esse token é armazenado no localStorage do navegador.
+<p align="center">
+  <a href="https://kenziehub-leo.vercel.app/" target="_blank">Clique aqui</a> para acessar a versão web
+</p>
 
+## 🖥️ Projeto
 
-# Como instalar e rodar a aplicação no seu computador
+Se trata de um projeto proposto pela Kenzie, onde um usuário pode se cadastrar nessa plataforma e gerenciar seus conhecimentos adicionando, alterando e deletando tecnologias aprendidas no decorrer da sua vida.
 
-- Faça um clone do projeto em uma pasta do seu computador de sua preferência
-- Abra o diretório "kenziehub-leo" no seu VSCode
-- No terminal do VSCode, baixe as dependências necessárias para rodar a aplicação digitando "yarn"
-- Após finalizar a instalação no passo anterior, digite "yarn start" para iniciar a aplicação (vai ser iniciada na porta 3000)
-- Prontinho :)
+## 📲 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias/bibliotecas:
+
+<table border="0">
+ <tr>
+<td> JavaScript</td>
+<td> React.JS</td>
+<td> Styled Components</td>
+<td> Yup</td>
+<td> API Rest</td>
+<td> Framer-motion</td>
+ </tr>
+ <tr>
+<td> React Hook Form</td>
+<td> React Toastify</td>
+<td> React Router Dom</td>
+<td> Axios</td>
+<td> 
+  <a href="https://www.figma.com/file/ccZ4uMlJtuBQISDzCCI1Vq/Kenzie-Hub?node-id=0%3A1/" target="_blank"> Figma </a> 
+</td>
+
+ </tr>
+</table>
+
+## 🌟 Features
+
+-   [ ] Adicionar, remover e excluir tecnologias cadastradas no perfil;
+-   [ ] Responsividade;
+-   [ ] Cadastro e Login de novos usuários;
+-   [ ] Controle de autenticação.
+
+## 👨🏻‍💻 Executando o projeto
+
+- 1º - clone o repositório para seu computador;
+- 2º - no local clonado, abra o terminal e execute o **yarn** ou o **npm install** para instalar as dependências do projeto;
+- 3º - abra o projeto com o comando **code . **.
+
+Para acessar a versão web:
+
+```cl
+yarn start ou npm run dev
+```
